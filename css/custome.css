@@ -1,0 +1,34 @@
+@import url(./colorvariable.css);
+
+
+/* BODY */
+
+body{
+    font-family: var(--aibuzz-font-content);
+    font-size: 16px;
+}
+
+/* Header Section */
+header{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+header .brand-logo{
+    font-size: 40px;
+    color: #000;
+    font-weight: 900;
+    font-family: var(--aibuzz-font-heading);
+}
+
+
+header .nav-link{
+    font-size:18px;
+    font-weight: 600;
+    color: var(--aibuzz-black);
+    
+}
+
+
